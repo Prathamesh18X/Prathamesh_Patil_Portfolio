@@ -63,7 +63,7 @@ const NavBar = ({ toggleDarkMode, darkMode }) => {
             to="/"
             className="text-3xl font-bold sm:text-3xl"
           >
-            Prathamesh Patil
+            Prathamesh18X
           </Link>
         </div>
         <div

@@ -54,7 +54,7 @@ const Skills = ({ darkMode }) => {
           </div>
           {/* right box */}
           <div className="right relative flex-1 flex flex-wrap p-5 gap-10 items-center justify-center sm:w-full">
-            <div className="first2 grid grid-cols-7 gap-4 md:grid-cols-4 sm:grid-cols-2">
+            <div className="first2 grid grid-cols-6 gap-4 md:grid-cols-4 sm:grid-cols-2">
               <SkillBox/>
             </div>
           </div>
