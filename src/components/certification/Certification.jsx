@@ -3,7 +3,7 @@ import Certificate from "../../chip/Certificate";
 
 const Certification = () => {
   return (
-    <div id="works" className="container m-auto mt-16">
+    <div id="certification" className="container m-auto mt-16">
       {/* heading */}
       <div 
       data-aos="fade-up"
