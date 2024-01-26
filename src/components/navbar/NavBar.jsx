@@ -15,14 +15,18 @@ const navItems = [
   },
   {
     id: 2,
-    name: "works",
+    name: "projects",
   },
-    // {
-    //   id: 3,
-    //   name: "resume",
-    // },
+  // {
+  //   id: 3,
+  //   name: "qualification",
+  // },
   {
     id: 4,
+    name: "certification",
+  },
+  {
+    id: 5,
     name: "contact",
   },
 ];

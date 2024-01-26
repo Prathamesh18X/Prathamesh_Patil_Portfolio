@@ -7,7 +7,7 @@ const Resume = () => {
       {/* heading */}
       <div data-aos="fade-up" className="relative mb-5">
         <h3 className=" text-3xl font-black text-gray-400 sm:text-2xl">
-          Resume
+          Qualification
         </h3>
         <span className="h-[1.1px] right-0 absolute w-[92%] bg-gray-300 block"></span>
       </div>
@@ -18,7 +18,7 @@ const Resume = () => {
       </div>
       {/* card*/}
       <div className="card-wrapper w-[90%] sm:w-full mt-5 flex md:flex-col sm:gap-5 mx-auto ">
-      <div className="left flex-1 flex items-center justify-center">
+      <div className="left flex-1 flex items-center ">
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"
@@ -29,7 +29,8 @@ const Resume = () => {
             <Education/>
           </fieldset>
         </div>        
-      <div className="left flex-1 flex items-center justify-center">
+      <div className="left flex-1 flex flex-col items-center">
+      
           <fieldset
             data-aos="zoom-in"
             className=" w-[80%] p-5 py-12 sm:py-8 sm:w-full sm:p-2"

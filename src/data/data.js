@@ -1,5 +1,6 @@
-
 export const mobile = 7990977945;
+export const resume_id = "1n0Xo-sFOblwwzBZExoBMa_88lm0xSyMe";
+export const email = "prathmeshpatil418@gmail.com"; 
 export const projectData = [
   {
     id: 1,
@@ -14,7 +15,7 @@ export const projectData = [
     img: 'https://i.postimg.cc/tTBkcrt0/image.png',
     title: "Search-App",
     desc:"It is an Anime scene search app that helps you to trace back the original anime by a their Name and get browser to their Episode and world wide popularity",
-    link: "",
+    link: "https://anime-search-app-six.vercel.app/",
     git: "https://github.com/Prathamesh18X/Anime-Search-App?tab=readme-ov-file",
   },
   {
@@ -22,7 +23,7 @@ export const projectData = [
     img: 'https://i.postimg.cc/HkmSV7Lh/image.png',
     title: "Live Weather-App",
     desc: "Stay updated of the Weather with my WeatherNow-App, convenient to provide the live weather around you.",
-    link: "",
+    link: "https://prathamesh18x.github.io/WeatherNow-App/",
     git: "https://github.com/Prathamesh18X/WeatherNow-App",
   },
   {
@@ -30,6 +31,14 @@ export const projectData = [
     img: 'https://i.postimg.cc/FFL5S39r/Hulu-Clone.png',
     title: "Stream Clone",
     desc: "My first Clone of any Stream Web Application , it consist of Clone of UI and frontend with a bit use of Javascript form including user authentication modal",
+    link: "https://prathamesh18x.github.io/Hulu-Clone/",
+    git: "https://github.com/Prathamesh18X/Hulu-Clone",
+  },
+  {
+    id: 5,
+    img: 'https://i.postimg.cc/brR9rfk6/Portfolio.png',
+    title: "Portfolio Web-Page",
+    desc: "My first Responsive Portfolio",
     link: "",
     git: "https://github.com/Prathamesh18X/Hulu-Clone",
   }
@@ -108,6 +117,13 @@ export const skillData = [
     skill: "API",
   },
   {
+    id: 19,
+    logo: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/144/external-jquery-is-a-javascript-library-designed-to-simplify-html-logo-shadow-tal-revivo.png',
+    bgColor: "white",
+    textColor: "black",
+    skill: "JQuery",
+  },
+  {
     id: 11,
     logo: 'https://img.icons8.com/color/144/null/bootstrap--v2.png',
     bgColor: "white",
@@ -179,4 +195,71 @@ export const education   = [
     duration: "present",
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi nihil aut quae obcaecati alias placeat totam aperiam pariatur quam? Accusantium minima aperiam error obcaecati autem doloribus deserunt qui, laborum incidunt amet, numquam eos cum tempora. Debitis, esse quae corporis deserunt officia quos in a, quaerat vero odio vitae."
   },
+];
+export const certificate   = [
+  {
+    id : 1,
+    img: "https://i.postimg.cc/3wsfG9GG/image.png",
+    title: "Azure Fundamentals AZ-900",
+    company: "Microsoft",
+    verify: "https://www.credly.com/badges/f48e77a0-df08-4ab2-9262-bd14b62e42b3",
+    duration: "June'23",
+  },
+  {
+    id : 2,
+    img: "https://i.postimg.cc/kXSQ69cT/image.png",
+    title: "NPTEL Introduction to IoT",
+    company: "NPTEL IIT kharagpur",
+    verify: "https://archive.nptel.ac.in/content/noc/NOC23/SEM2/Ecertificates/106/noc23-cs83/Course/NPTEL23CS83S54950004120004640.pdf",
+    duration: "November'23",
+  },
+  {
+    id : 3,
+    img: "https://i.postimg.cc/prZsgH6Q/image.png",
+    title: "Software Engineer Certificate",
+    company: "Hackerrank",
+    verify: "https://www.hackerrank.com/certificates/1bec9fb3f3d2",
+    duration: "January'24",
+  },
+  {
+    id : 4,
+    img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~EVX3VCLMC4ZE/CERTIFICATE_LANDING_PAGE~EVX3VCLMC4ZE.jpeg",
+    title: "Technical Support Fundamentals (Google IT Support Professional )",
+    company: "Coursera",
+    verify: "https://www.coursera.org/account/accomplishments/verify/EVX3VCLMC4ZE",
+    duration: "June'22",
+  },
+  {
+    id : 5,
+    img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~V9U5N49FWJ7W/CERTIFICATE_LANDING_PAGE~V9U5N49FWJ7W.jpeg",
+    title: "Java Programming and Software Engineering Fundamentals Specialization",
+    company: "Coursera",
+    verify: "https://www.coursera.org/account/accomplishments/specialization/V9U5N49FWJ7W",
+    duration: "June'22",
+  },
+  {
+    id : 6,
+    img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~L3GFECAKAPQM/CERTIFICATE_LANDING_PAGE~L3GFECAKAPQM.jpeg",
+    title: "Front-End Web Development with React",
+    company: "Coursera",
+    verify: "https://www.coursera.org/account/accomplishments/verify/L3GFECAKAPQM",
+    duration: "January'23",
+  },
+  {
+    id : 7,
+    img: "https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~LMRTD23TJ4GL/CERTIFICATE_LANDING_PAGE~LMRTD23TJ4GL.jpeg",
+    title: "Server-side Development with NodeJS, Express and MongoDB",
+    company: "Coursera",
+    verify: "https://www.coursera.org/account/accomplishments/verify/LMRTD23TJ4GL",
+    duration: "January'23",
+  },
+  {
+    id : 8,
+    img: "https://cdn.qwiklabs.com/2L8E9WsZ8Z5zUcUdTsOUSVt%2FN%2FaPk2Yg4iqHwDOHNNw%3D",
+    title: "Exploring Data with Looker",
+    company: "Coursera",
+    verify: "https://www.cloudskillsboost.google/public_profiles/fd9d5093-0af2-49f4-983f-e94932e1be37/badges/2266008",
+    duration: "June'22",
+  },
+ 
 ];

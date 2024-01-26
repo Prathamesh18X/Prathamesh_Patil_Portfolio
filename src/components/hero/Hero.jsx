@@ -6,13 +6,10 @@ import {
 import { FaFacebook, FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import { TypeAnimation } from "react-type-animation";
-import resumePDF from "../../assets/Resume.pdf";
-
+import { resume_id , email } from "../../data/data";
 const mailClick=()=>{
-  const email = "prathmeshpatil418@gmail.com";
   window.location.href=`mailto:${email}`;
 }
-
 
 const Hero = () => {
   return (
@@ -60,7 +57,7 @@ const Hero = () => {
               />
             </a>
             <a
-              href={resumePDF}
+              href={"https://drive.google.com/uc?export=download&id=" + String(resume_id)}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-indigo-500 hover:scale-110"
               download
             >

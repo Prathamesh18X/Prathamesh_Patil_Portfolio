@@ -1,26 +1,25 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { projectData } from "../data/data";
-import { RxExternalLink } from "react-icons/rx";
-import { AiOutlineGithub } from "react-icons/ai";
+import { certificate } from "../data/data";
+import { MdOutlineVerified } from "react-icons/md";
 import { Link } from "react-router-dom";
 
-const WorkCard = () => {
+const Certificate = () => {
 
   return (
     <>
-      {projectData.map((projectData) => {
+      {certificate.map((certificate) => {
         return (
           <div
             data-aos="zoom-in"
-            key={projectData.id}
+            key={certificate.id}
             className="flex flex-col justify-center items-center gap-4"
           >
             <POPUP className="img-content relative">
-              <div className="h-[240px] w-[420px] hover:scale-125 transition duration-500 cursor-pointer shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
+              <div className="h-[240px] w-[420px] hover:scale-125 transition duration-500 cursor-pointer  rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] sm:bg-cover mx-auto ">
                 <img
-                  src={projectData.img}
-                  alt={projectData.title}
+                  src={certificate.img}
+                  alt={certificate.title}
                   className=" object-cover w-full h-full hover:scale-125 transition duration-500 cursor-pointer"
                 />
               </div>
@@ -28,33 +27,29 @@ const WorkCard = () => {
               <div
                 className={` popup w-full  h-[280px] shadow-xl rounded-md overflow-hidden sm:h-[260px] sm:w-[92%] p-4`}
               >
-                <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
-                  {projectData.desc}
+                <p className="  text-gray-900 text-2xl font-bold leading-[1.4] text-center w-[90%]">
+                  <span>{certificate.title}</span>
+                </p>
+                <p className="  text-gray-900 text-base leading-[1.4] text-center w-[90%]">
+                  <span>{certificate.company}</span>
+                </p>
+                <p className=" text-gray-900 text-base leading-[1.4] text-center w-[90%]">
+                  <span>{certificate.duration}</span>
                 </p>
                 <div className=" flex items-center justify-center gap-4">
-                  <Link
-                    to={projectData.link}
-                    target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
-                  >
-                    <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
-                  </Link>
+                  
                   <br className="w-[2px] bg-white" />
                   <Link
-                    to={projectData.git}
+                    to={certificate.verify}
                     target="_blank"
                     className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
                   >
-                    <AiOutlineGithub className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black"> Source Code</p>
+                    <MdOutlineVerified className="  text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
+                    <p className=" text-black"> Verify</p>
                   </Link>
                 </div>
               </div>
             </POPUP>
-            <p className="text-gray-800 text-xl font-medium sm:text-lg">
-              {projectData.title}
-            </p>
           </div>
         );
       })}
@@ -62,7 +57,7 @@ const WorkCard = () => {
   );
 };
 
-export default WorkCard;
+export default Certificate;
 
 const POPUP = styled.div`
   position: relative;
