@@ -100,7 +100,8 @@ const Hero = () => {
             <img
               data-aos="fade-up"
               className=" h-[100%]  object-cover md:h-[95%] md:m-auto sm:m-0 "
-              src="https://i.postimg.cc/bNcG6g1T/Prathamesh-Avatar.png"
+              // src="https://i.postimg.cc/bNcG6g1T/Prathamesh-Avatar.png"
+              src="https://res.cloudinary.com/da1mwmvno/image/upload/v1719918246/portfolio/snwjxvboahamlnopqjib.png"
               alt="mine-avatar"
             />
             <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">

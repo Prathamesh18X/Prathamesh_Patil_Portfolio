@@ -31,14 +31,14 @@ const WorkCard = () => {
                 <p className=" text-gray-900 text-base leading-[1.4] text-justify w-[90%]">
                   {projectData.desc}
                 </p>
-                <div className=" flex items-center justify-center gap-4">
+                <div className={`  flex items-center justify-center gap-4`}>
                   <Link
                     to={projectData.link}
                     target="_blank"
-                    className="  mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium"
+                    className={`${projectData.link ? "" : "hidden"} mt-3 rounded-md shadow-md p-1 px-2 flex gap-2 items-center justify-center font-medium`}
                   >
+                    <p className=" text-black">🔴Live</p>
                     <RxExternalLink className=" text-black bg-white rounded-full border  w-[35px] h-[35px] p-2" />
-                    <p className=" text-black">Demo</p>
                   </Link>
                   <br className="w-[2px] bg-white" />
                   <Link
